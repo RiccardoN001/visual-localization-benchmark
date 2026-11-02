@@ -1,0 +1,23 @@
+# Main environment: every retriever and every matcher except OmniGlue.
+# Install torch/torchvision first, with the CUDA build matching your driver, for example:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# RoMa v2 is installed separately without dependencies (see the README).
+numpy<2
+opencv-python-headless==4.9.0.80
+scipy
+pillow
+scikit-image
+faiss-cpu
+transformers
+huggingface_hub
+safetensors
+pytorch-lightning
+pytorch-metric-learning
+einops
+fast-pytorch-kmeans
+psutil
+rich
+tqdm
+lightglue @ git+https://github.com/cvg/LightGlue.git
+nvidia-ml-py
+pytest

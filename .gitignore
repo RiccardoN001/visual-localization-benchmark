@@ -1,0 +1,17 @@
+# README.md is the only published Markdown file.
+*.md
+!/README.md
+
+# Datasets, results and downloaded models are never committed.
+data/
+output/
+third_party/
+cache/
+envs/
+jobs/
+logs/
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

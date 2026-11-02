@@ -1,0 +1,2 @@
+# Shell and SLURM scripts run on Linux: every text file is stored with LF line endings.
+* text=auto eol=lf

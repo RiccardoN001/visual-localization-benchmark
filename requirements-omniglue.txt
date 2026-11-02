@@ -1,0 +1,19 @@
+# OmniGlue environment. TensorFlow 2.15 needs cuDNN 8, so torch is pinned to 2.3.1 (the last release
+# built against cuDNN 8.9). Install torch first:
+#   pip install torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu121
+# The retrievers also run in this environment, since every retriever is combined with OmniGlue.
+tensorflow==2.15.*
+numpy<2
+opencv-python-headless==4.9.0.80
+scipy
+pillow
+matplotlib
+faiss-cpu
+transformers
+huggingface_hub
+safetensors
+pytorch-lightning
+pytorch-metric-learning
+einops
+fast-pytorch-kmeans
+nvidia-ml-py
